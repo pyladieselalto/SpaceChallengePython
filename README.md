@@ -1,2 +1,2 @@
-# SpaceChallengePython
+# Space Challenge Python
 Space Challenge Pyladies 
