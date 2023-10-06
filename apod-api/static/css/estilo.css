@@ -1,0 +1,12 @@
+body {
+    background-image: url('/static/img/fondo.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+p.text-justify {
+    text-align: justify;
+}
+.fondo-card{
+    background-color: rgba(0, 0, 0, 0.5); 
+}

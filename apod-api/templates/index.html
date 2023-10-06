@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es" class="h-100">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Inicio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="/static/css/estilo.css">
+    </head>
+    <body class="h-100">
+        <div class="container h-100">
+            <div class="row justify-content-center h-100">
+                <div class=" align-self-center">
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-12 col-sm-6 align-self-center">
+                            <h1 class="text-danger">¡Hola!</h1>
+                            <h3 class="text-info">Somos Pyladies EL Alto</h3>
+                            <p  class="text-white text-justify">
+                                Esta aplicación web proporciona una ventana al vasto y maravilloso mundo del espacio exterior 
+                                a través de las imágenes sorprendentes y la información científica proporcionada por la NASA. 
+                                ¡Descubre cual es la imagen elegida por la nasa en una fecha específica.
+                            </p>
+                            <div class="row">
+                                <div class="col text-end">
+                                    <form method="POST" action="/day">
+                                        <div class="mb-3">
+                                            <label for="fecha" class="form-label text-danger">Selecciona una fecha</label>
+                                            <input type="date" class="form-control" id="fecha" name="fecha" max="{{ fecha_max }}">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Enviar</button>
+                                    </form>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-6 p-5" >
+                            <img src="/static/img/astronauta.png" alt="marte" width="100%">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>   
+</html>
+
