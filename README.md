@@ -12,4 +12,4 @@ El segundo proyecto se centró en el desarrollo de la investigacion.
 
 Ambos proyectos demuestran la importancia de la investigación, la persistencia y la adaptabilidad. Además, haber permitido explorar áreas de interés personal y profesional mientras contribuyo al bienestar de mi entorno.
 
-Gracias a las personas que nos colaboran.
+Gracias a las personas que nos colaboran.💌
